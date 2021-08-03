@@ -30,6 +30,9 @@ app.use(session({
 // Global variables
 
 // routes
+app.use(require('./routes/index'));
+app.use(require('./routes/notes'));
+app.use(require('./routes/users'));
 
 // Static files
 
